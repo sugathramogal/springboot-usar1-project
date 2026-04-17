@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class controller2 {
 	@GetMapping("/hello2")
     public int Hello2() {
-		return 7+14;
+		return 6+14;
 	} 
 }
